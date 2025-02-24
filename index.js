@@ -18,7 +18,7 @@ const io = new Server(server, {
 let devices = {};
 
 app.get("/", (req, res) => {
-  res.send("IoT WebSocket Server Running!");
+  res.send("IoT WebSocket Server Running! Perfect");
 });
 
 io.on("connection", (socket) => {
